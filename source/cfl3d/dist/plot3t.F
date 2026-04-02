@@ -759,7 +759,7 @@ c
 c            Find nonlinear tauij values:
                 alpa1=(2.-c4)/2.*gg
                 alpa2=(2.-c3)*gg
-              omegatemp=ccmax(turre(j,k,i,1),tur10)
+              omegatemp=ccmax(turre(j,k,i,1),tur10(1))
 c     Get "factre" term:  changes numerator of cmu for nonlinear terms only
               eta=(2.-c3)**2*(gg*gg/4.)*xis/(omegatemp*re)**2
               squig=(2.-c4)**2*(gg*gg/4.)*wis/(omegatemp*re)**2
